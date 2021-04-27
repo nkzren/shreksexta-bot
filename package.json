@@ -1,0 +1,12 @@
+{
+  "name": "sexta-shrek-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nkzren",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "node-schedule": "^2.0.0"
+  }
+}
