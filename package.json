@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "nkzren",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
