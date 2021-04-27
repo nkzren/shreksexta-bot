@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const env = require("dotenv");
 const client = new Discord.Client();
-const schedule = require("node-schedule")
+const schedule = require("node-schedule");
 
 env.config()
 
@@ -22,7 +22,7 @@ function scheduleMessage(channel) {
   const rule = '0 0 12 * * 5'
   schedule.scheduleJob({rule}, function () {
     channel.send("GRAÇAS A DEUS É SEXTA-FEIRA EM", {
-      files: ["./shrek_sexta.mp4"]
+      files: ["./content/shrek_sexta.mp4"]
     })
   })
 }
